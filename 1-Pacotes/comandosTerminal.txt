@@ -1,0 +1,34 @@
+➜  go cd 1-Pacotes    
+➜  1-Pacotes go mod init modulo
+go: creating new go.mod: module modulo
+➜  1-Pacotes go build 
+➜  1-Pacotes ./modulo
+➜  1-Pacotes go run main.go    
+Arquivo Main
+➜  1-Pacotes go run main.go
+Arquivo Main
+Escrevendo do pacote auxiliar
+➜  1-Pacotes go run main.go
+Arquivo Main
+Escrevendo do pacote auxiliar
+Escrevendo do pacote auxiliar2
+➜  1-Pacotes go build          
+➜  1-Pacotes ./modulo      
+Arquivo Main
+Escrevendo do pacote auxiliar
+Escrevendo do pacote auxiliar2
+➜  1-Pacotes 
+➜  1-Pacotes go get github.com/badoux/checkmail
+go: downloading github.com/badoux/checkmail v1.2.4
+go: added github.com/badoux/checkmail v1.2.4
+➜  1-Pacotes go get github.com/badoux/checkmail
+go: downloading github.com/badoux/checkmail v1.2.4
+go: added github.com/badoux/checkmail v1.2.4
+➜  1-Pacotes go get github.com/badoux/checkmail
+➜  1-Pacotes go run main.go                    
+Arquivo Main
+Escrevendo do pacote auxiliar
+Escrevendo do pacote auxiliar2
+<nil>
+
+go mod tidy - para limpar o cache e dependencias nao utilizadas.
