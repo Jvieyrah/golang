@@ -1,0 +1,39 @@
+➜  2-Variaveis cd ..
+➜  go cd 3-Tipos-de-dados
+➜  3-Tipos-de-dados go run tipos-de-dados.go
+100 200 300 400
+➜  3-Tipos-de-dados go run tipos-de-dados.go
+# command-line-arguments
+./tipos-de-dados.go:6:21: cannot use 1000 (untyped int constant) as int8 value in variable declaration (overflows)
+➜  3-Tipos-de-dados go run tipos-de-dados.go
+# command-line-arguments
+./tipos-de-dados.go:7:22: cannot use 200000 (untyped int constant) as int16 value in variable declaration (overflows)
+➜  3-Tipos-de-dados go run tipos-de-dados.go
+# command-line-arguments
+./tipos-de-dados.go:8:22: cannot use 3000000000 (untyped int constant) as int32 value in variable declaration (overflows)
+➜  3-Tipos-de-dados go run tipos-de-dados.go
+# command-line-arguments
+./tipos-de-dados.go:9:22: cannot use 40000000000000000000 (untyped int constant) as int64 value in variable declaration (overflows)
+➜  3-Tipos-de-dados go run tipos-de-dados.go
+100 20000 300000000 4000000000000000000
+➜  3-Tipos-de-dados go run tipos-de-dados.go
+# command-line-arguments
+./tipos-de-dados.go:11:16: syntax error: unexpected :=, expected =
+➜  3-Tipos-de-dados go run tipos-de-dados.go
+100 20000 300000000 4000000000000000000
+1111111111111111111
+➜  3-Tipos-de-dados go run tipos-de-dados.go
+100 20000 300000000 4000000000000000000
+1111111111111111111
+➜  3-Tipos-de-dados go run tipos-de-dados.go
+100 20000 300000000 4000000000000000000
+1111111111111111111
+-1000000000000000000
+➜  3-Tipos-de-dados go run tipos-de-dados.go
+# command-line-arguments
+./tipos-de-dados.go:22:23: cannot use -4000000000000000000 (untyped int constant) as uint64 value in variable declaration (overflows)
+➜  3-Tipos-de-dados go run tipos-de-dados.go
+100 20000 300000000 4000000000000000000
+1111111111111111111
+-1000000000000000000
+100 20000 300000000 4000000000000000000

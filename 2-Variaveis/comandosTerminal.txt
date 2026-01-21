@@ -1,0 +1,22 @@
+➜  1-Pacotes cd ..
+➜  go cd 2-Variaveis
+➜  2-Variaveis go run variaveis.go
+variavel 1 variavel 2 
+➜  2-Variaveis go run variaveis.go
+variavel 1 variavel 2 
+variavel 4 variavel 5
+➜  2-Variaveis go run variaveis.go
+variavel 1 variavel 2 
+variavel 4 variavel 5
+variavel 6 variavel 7
+➜  2-Variaveis go run variaveis.go
+variavel 1 variavel 2 
+variavel 4 variavel 5
+variavel 6 variavel 7
+constante 1
+➜  2-Variaveis go run variaveis.go
+variavel 1 variavel 2 
+variavel 4 variavel 5
+variavel 6 variavel 7
+constante 1
+variavel 7 variavel 6
