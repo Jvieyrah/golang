@@ -1,0 +1,75 @@
+➜  4-Funcoes cd ..
+➜  go cd 5-Operadores
+➜  5-Operadores go run operadores.go
+3 -1 2 50 0
+➜  5-Operadores go run operadores.go
+3 -1 2 50 0
+35
+Ola Mundo
+➜  5-Operadores go run operadores.go
+3 -1 2 50 0
+35
+Ola Mundo
+false
+true
+false
+true
+false
+true
+true false
+true
+false
+true
+true
+false
+true
+26
+15
+➜  5-Operadores go run operadores.go
+3 -1 2 50 0
+35
+Ola Mundo
+false
+true
+false
+true
+false
+true
+true false
+true
+false
+true
+true
+false
+true
+26
+15
+15
+1
+➜  5-Operadores go run operadores.go
+# command-line-arguments
+./operadores.go:59:23: invalid character U+003F '?'
+./operadores.go:59:25: syntax error: unexpected literal "Maior que 5" at end of statement
+➜  5-Operadores go run operadores.go
+3 -1 2 50 0
+35
+Ola Mundo
+false
+true
+false
+true
+false
+true
+true false
+true
+false
+true
+true
+false
+true
+26
+15
+15
+1
+Menor que 5
+➜  5-Operadores 

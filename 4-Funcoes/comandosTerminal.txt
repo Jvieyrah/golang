@@ -1,0 +1,22 @@
+➜  3-Tipos-de-dados cd ..
+➜  go cd 4-Funcoes
+➜  4-Funcoes go run funcoes           
+package funcoes is not in std (/usr/local/go/src/funcoes)
+➜  4-Funcoes go run funcoes.go
+30
+➜  4-Funcoes go run funcoes.go
+30
+Texto da função
+Texto da função
+
+➜  4-Funcoes go run funcoes.go
+30
+Texto da função
+Texto da função
+30 -10
+➜  4-Funcoes go run funcoes.go
+30
+Texto da função
+Texto da função
+30 -10
+30
