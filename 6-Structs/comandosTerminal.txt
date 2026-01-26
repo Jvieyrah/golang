@@ -1,0 +1,30 @@
+➜  go cd 6-Structs
+➜  6-Structs go run structs.go   
+{João 20}
+➜  6-Structs go run structs.go
+{João 20}
+{Maria 30}
+➜  6-Structs go run structs.go
+{João 20}
+{Maria 30}
+{Pedro 0}
+➜  6-Structs go run structs.go
+# command-line-arguments
+./structs.go:22:22: syntax error: unexpected : in argument list; possibly missing comma or )
+➜  6-Structs go run structs.go
+# command-line-arguments
+./structs.go:22:20: syntax error: unexpected : in argument list; possibly missing comma or )
+➜  6-Structs go run structs.go
+# command-line-arguments
+./structs.go:22:20: syntax error: unexpected : in argument list; possibly missing comma or )
+➜  6-Structs go run structs.go
+{João 20}
+{Maria 30}
+{Pedro 0}
+{ 100}
+➜  6-Structs go run structs.go
+{João 20 { 0 }}
+{João 20 {Rua 1 123 12345-678}}
+{Pedro 0 { 0 }}
+{ 100 { 0 }}
+➜  6-Structs 

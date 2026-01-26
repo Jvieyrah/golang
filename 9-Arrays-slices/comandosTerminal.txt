@@ -1,0 +1,58 @@
+➜  7-Herança-sqn cd ..
+➜  go cd 8-Arrays-slices
+➜  8-Arrays-slices go run array-slices.go
+stat array-slices.go: no such file or directory
+➜  8-Arrays-slices go run arrays-slices.go
+[0 0 0 0 0]
+[1 2 3 4 5]
+[1 2 3 4 5]
+➜  8-Arrays-slices go run arrays-slices.go
+[0 0 0 0 0]
+[1 2 3 4 5]
+[1 2 3 4 5]
+[1 2 3 4 5]
+➜  8-Arrays-slices go run arrays-slices.go
+[0 0 0 0 0]
+[1 2 3 4 5]
+[1 2 3 4 5]
+[1 2 3 4 5]
+[1 2 3 4 5]
+➜  8-Arrays-slices go run arrays-slices.go
+[0 0 0 0 0]
+[1 2 3 4 5]
+[1 2 3 4 5]
+[1 2 3 4 5]
+[1 2 3 4 5]
+5
+5
+➜  8-Arrays-slices go run arrays-slices.go
+[0 0 0 0 0]
+[1 2 3 4 5]
+[1 2 3 4 5]
+[1 2 3 4 5]
+[1 2 3 4 5]
+5
+5
+5
+panic: runtime error: index out of range [5] with length 5
+
+goroutine 1 [running]:
+main.main()
+        /Users/joaofilho/Documents/neocamp/go/8-Arrays-slices/arrays-slices.go:24 +0x224
+exit status 2
+➜  8-Arrays-slices go run arrays-slices.go
+[0 0 0 0 0]
+[1 2 3 4 5]
+[1 2 3 4 5]
+[1 2 3 4 5]
+[1 2 3 4 5]
+[1 2 3 4 5 6]
+➜  8-Arrays-slices go run arrays-slices.go
+[0 0 0 0 0]
+[1 2 3 4 5]
+[1 2 3 4 5]
+[1 2 3 4 5]
+[1 2 3 4 5]
+[1 2 3 4 5 6]
+[2 3]
+➜  8-Arrays-slices 

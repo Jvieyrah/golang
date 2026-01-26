@@ -1,0 +1,14 @@
+➜  6-Structs cd ..
+➜  go cd 7-Herança-snq
+cd: no such file or directory: 7-Herança-snq
+➜  go cd 7-Herança-sqn
+➜  7-Herança-sqn go run heranca.go
+{{João 20 M} Engenharia C USP}
+➜  7-Herança-sqn go run heranca.go
+{{João 20 M} Engenharia C USP}
+JoãoEngenharia%                                                       
+➜  7-Herança-sqn go run heranca.go
+{{João 20 M} Engenharia C USP}
+João
+Engenharia
+➜  7-Herança-sqn 

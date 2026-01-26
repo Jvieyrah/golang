@@ -1,0 +1,7 @@
+➜  8-Ponteiros cd ..
+➜  go cd 10-Maps
+➜  10-Maps go run maps.go     
+Maps
+map[nome:joao profissao:Dev]
+joao
+➜  10-Maps 
