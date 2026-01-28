@@ -1,0 +1,19 @@
+➜  go cd 12-Switch
+➜  12-Switch go rum switch.go                                                            
+
+go rum: unknown command
+Run 'go help' for usage.
+➜  12-Switch go run switch.go
+
+switch.go:1:1: expected 'package', found 'EOF'
+➜  12-Switch go run switch.go
+
+Domingo
+Segunda
+Terça
+Quarta
+Quinta
+Sexta
+Sábado
+Número inválido
+➜  12-Switch 
