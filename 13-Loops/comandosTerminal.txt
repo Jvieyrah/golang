@@ -1,0 +1,99 @@
+➜  12-Switch cd ..
+➜  go cd 13-Loops
+➜  13-Loops go run loops.go
+# command-line-arguments
+./loops.go:16:1: syntax error: unexpected EOF, expected }
+➜  13-Loops go run loops.go
+O valor de i é 0
+O valor de i é 1
+O valor de i é 2
+O valor de i é 3
+O valor de i é 4
+O valor de i é 5
+O valor de i é 6
+O valor de i é 7
+O valor de i é 8
+O valor de i é 9
+➜  13-Loops go run loops.go
+O valor de i é 0
+O valor de i é 1
+O valor de i é 2
+O valor de i é 3
+O valor de i é 4
+O valor de i é 5
+O valor de i é 6
+O valor de i é 7
+O valor de i é 8
+O valor de i é 9
+O valor de j é 0
+O valor de j é 1
+O valor de j é 2
+O valor de j é 3
+O valor de j é 4
+O valor de j é 5
+O valor de j é 6
+O valor de j é 7
+O valor de j é 8
+O valor de j é 9
+➜  13-Loops go run loops.go
+O valor de i é 0
+O valor de i é 1
+O valor de i é 2
+O valor de i é 3
+O valor de i é 4
+O valor de i é 5
+O valor de i é 6
+O valor de i é 7
+O valor de i é 8
+O valor de i é 9
+O valor de j é 0
+O valor de j é 1
+O valor de j é 2
+O valor de j é 3
+O valor de j é 4
+O valor de j é 5
+O valor de j é 6
+O valor de j é 7
+O valor de j é 8
+O valor de j é 9
+O nome é João
+O nome é Maria
+O nome é Pedro
+➜  13-Loops go run loops.go
+O nome é João
+O nome é Maria
+O nome é Pedro
+0 80
+1 65
+2 76
+3 65
+4 86
+5 82
+6 65
+➜  13-Loops go run loops.go
+O nome é João
+O nome é Maria
+O nome é Pedro
+0 P
+1 A
+2 L
+3 A
+4 V
+5 R
+6 A
+➜  13-Loops go run loops.go
+O nome é João
+O nome é Maria
+O nome é Pedro
+0 P
+1 A
+2 L
+3 A
+4 V
+5 R
+6 A
+nome joao
+sobrenome silva
+profissao dev
+cidade Recife
+➜  13-Loops 
