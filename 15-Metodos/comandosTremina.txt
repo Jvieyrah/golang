@@ -1,0 +1,30 @@
+➜  go cd 15-Metodos
+➜  15-Metodos go run metodos.go
+metodos.go:1:1: expected 'package', found 'EOF'
+➜  15-Metodos go run metodos.go
+João Silva
+18
+Olá, meu nome é João Silva e tenho 18 anosPedro Santos
+20
+true
+21
+Olá, meu nome é Pedro Santos e tenho 21 anos%                                                                
+➜  15-Metodos go run metodos.go
+João Silva
+18
+Olá, meu nome é João Silva e tenho 18 anos_____________________________
+Pedro Santos
+20
+true
+21
+Olá, meu nome é Pedro Santos e tenho 21 anos%                                                                
+➜  15-Metodos go run metodos.go
+João Silva
+18
+Olá, meu nome é João Silva e tenho 18 anos 
+Pedro Santos
+20
+true
+21
+Olá, meu nome é Pedro Santos e tenho 21 anos%                                                                
+➜  15-Metodos 
