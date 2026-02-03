@@ -1,0 +1,81 @@
+➜  go cd 17-Aplicacao-de-linha-de-comando
+➜  17-Aplicacao-de-linha-de-comando go mod init linha-de-comando
+go: creating new go.mod: module linha-de-comando
+➜  17-Aplicacao-de-linha-de-comando go get github.com/urfave/cli
+go: downloading github.com/urfave/cli v1.22.17
+go: downloading github.com/cpuguy83/go-md2man/v2 v2.0.7
+go: downloading github.com/russross/blackfriday/v2 v2.1.0
+go: added github.com/cpuguy83/go-md2man/v2 v2.0.7
+go: added github.com/russross/blackfriday/v2 v2.1.0
+go: added github.com/urfave/cli v1.22.17
+➜  17-Aplicacao-de-linha-de-comando go run main.go
+Ponto de partida
+➜  17-Aplicacao-de-linha-de-comando go run main.go
+Ponto de partida
+NAME:
+   Aplicação de linha de comando - Busca IPs e nomes de servidores na internet
+
+USAGE:
+   main [global options] command [command options] [arguments...]
+
+COMMANDS:
+   help, h  Shows a list of commands or help for one command
+
+GLOBAL OPTIONS:
+   --help, -h  show help
+➜  17-Aplicacao-de-linha-de-comando go run main.go
+Ponto de partida
+NAME:
+   Aplicação de linha de comando - Busca IPs e nomes de servidores na internet
+
+USAGE:
+   main [global options] command [command options] [arguments...]
+
+COMMANDS:
+   ip       Busca IPs de endereços na internet
+   help, h  Shows a list of commands or help for one command
+
+GLOBAL OPTIONS:
+   --help, -h  show help
+➜  17-Aplicacao-de-linha-de-comando go run main.go ip
+Ponto de partida
+172.217.30.110
+2800:3f0:4001:816::200e
+➜  17-Aplicacao-de-linha-de-comando go run main.go ip --host mercadolivre.com.br
+Ponto de partida
+108.139.166.53
+108.139.166.102
+108.139.166.119
+108.139.166.107
+➜  17-Aplicacao-de-linha-de-comando go run main.go ip --host mercadolivre.com.br
+Ponto de partida
+108.139.166.102
+108.139.166.107
+108.139.166.53
+108.139.166.119
+➜  17-Aplicacao-de-linha-de-comando go run main.go servidores  --host mercadolivre.com.br
+Ponto de partida
+&{ns-341.awsdns-42.com.}
+&{ns-1828.awsdns-36.co.uk.}
+&{ns-1387.awsdns-45.org.}
+&{ns-653.awsdns-17.net.}
+➜  17-Aplicacao-de-linha-de-comando go run main.go servidores  --host mercadolivre.com.br
+Ponto de partida
+ns-341.awsdns-42.com.
+ns-1387.awsdns-45.org.
+ns-653.awsdns-17.net.
+ns-1828.awsdns-36.co.uk.
+➜  17-Aplicacao-de-linha-de-comando go build 
+➜  17-Aplicacao-de-linha-de-comando ./linha-de-comando ip --host mercadolivre.com.br
+Ponto de partida
+3.164.6.4
+3.164.6.85
+3.164.6.18
+3.164.6.107
+➜  17-Aplicacao-de-linha-de-comando ./linha-de-comando servidores --host mercadolivre.com.br
+Ponto de partida
+ns-341.awsdns-42.com.
+ns-1828.awsdns-36.co.uk.
+ns-653.awsdns-17.net.
+ns-1387.awsdns-45.org.
+➜  17-Aplicacao-de-linha-de-comando 
